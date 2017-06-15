@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+
+  "name": "Edziennik-plus",
+  "description": "Więcej funkcji w dzienniku elektronicznym",
+  "version": "0.3.2",
+  "icons": {"128":"icon.png"},
+  "author": "MS",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "web_accessible_resources": [
+    "wiadantyspamweb.js",
+    "magicznyweb.js"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://synergia.librus.pl/przegladaj_oceny/uczen"],
+      "js": ["oceny.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://synergia.librus.pl/uczen_index"],
+      "js": ["glowna.js"],
+      "run_at": "document_start"      
+    },
+    {
+      "matches": ["https://synergia.librus.pl/*"],
+      "js": ["banerinject.js"],
+      "run_at": "document_start"      
+    },
+    {
+      "matches": ["https://synergia.librus.pl/wiadomosci", "https://synergia.librus.pl/wiadomosci/5", "https://synergia.librus.pl/wiadomosci/5/*"],
+      "js": ["wiadantyspam.js"],
+      "run_at": "document_idle"      
+    },
+    {
+      "matches": ["https://synergia.librus.pl/*"],
+      "exclude_matches": ["https://synergia.librus.pl/uczen_index"],
+      "js": ["szczesliwy.js"],
+      "run_at": "document_end"      
+    }
+  ],
+  "permissions": [
+    "storage",
+    "tabs",
+    "https://synergia.librus.pl/*"
+  ]
+}

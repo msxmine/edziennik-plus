@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head><title>Ustawienia Edziennik-plus</title></head>
+<body>
+<p1 style="font-size: 3em">Edziennik-plus</p1>
+<p>
+<p1 style="font-size: 2em">Wyliczać średnie?</p1>
+<p>
+<label>
+  <input type="checkbox" id="srednie">
+  Ręcznie wyliczaj średnie na postawie strony
+</label>
+<p>
+<p1 style="font-size: 2em">Chować puste przedmioty?</p1>
+<p>
+<label>
+  <input type="checkbox" id="ukryj">
+  Chowaj przedmioty, w których nie ma żadnej oceny
+</label>
+<p>
+<p1 style="font-size: 2em">Czy podmieniać główną stronę?</p1>
+<p>
+<label>
+  <input type="checkbox" id="glowna">
+  Dodaj do strony głównej plan lekcji
+</label>
+<p>
+<p1 style="font-size: 2em">Podmieniać logo?</p1>
+<p>
+<label>
+  <input type="checkbox" id="baner">
+  Podmieniaj logo
+</label>
+<p>
+<label>
+  <input type="url" id="banerurl">
+  URL nowego loga
+</label>
+<p>
+<p1 style="font-size: 2em">Chować brzydkie ocenki?</p1>
+<p>
+<label>
+  <input type="checkbox" id="brzydkieenable">
+  Chowaj oceny niższe niż podane minimum wystawione po podanej dacie
+</label>
+<p>
+<label>
+  <input type="date" id="brzydkiedata">
+  Data
+</label>
+<p>
+<label>
+  <input type="text" id="brzydkieminimum">
+  Minimalna dozwolona ocena
+</label>
+
+
+<p>
+<button id="save">Zapisz</button>
+<p>
+<div style="height: 3em" id="status"></div>
+
+Dodatkowe funkcje bez konfiguracji: <p>
+*Szczęśliwy numerek w logu na każdej stronie <p>
+*Wbudowane w chowanie pustych przedmiotów zwijanie zachowania <p>
+*Przycisk ??? na stronie z ocenami<p>
+*Moduł ANTYSPAM
+<script src="options.js"></script>
+</body>
+</html>
