@@ -1,6 +1,8 @@
 # edziennik-plus
 Dodatek webextension, udostępniający nowe funkcje na platformie synergia.librus.pl
-
+# Instalacja
+### [Kliknij aby zainstalować (Firefox)](https://github.com/msxmine/edziennik-plus/releases/download/0.3.2/edziennik_plus-0.3.2-an.fx.xpi)
+# Funkcje
 Obecnie wdrożone funkcje:
 * Wymuszone wyliczanie średnich dla szkół gdzie ich podgląd został wyłączony
 * Ukrywanie przedmiotów dla których nie została wpisana żadna ocena
