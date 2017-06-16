@@ -3,6 +3,9 @@ Dodatek webextension, udostępniający nowe funkcje na platformie synergia.libru
 # Instalacja
 ### [Kliknij aby zainstalować (Firefox)](https://github.com/msxmine/edziennik-plus/releases/download/0.3.3/firefox.xpi)
 ### [Kliknij aby zainstalować (Chrome)](https://chrome.google.com/webstore/detail/edziennik-plus/jaebpoaniojdaailecipilgejhcljljg)
+# Zrzuty ekranu
+![Własne logo](https://raw.githubusercontent.com/msxmine/edziennik-plus/updates/screenshot1.PNG "Własne logo")
+![Antyspam](https://raw.githubusercontent.com/msxmine/edziennik-plus/updates/screenshot2.PNG "Antyspam") ![Średnie](https://raw.githubusercontent.com/msxmine/edziennik-plus/updates/screenshot3.PNG "Średnie")
 # Funkcje
 Obecnie wdrożone funkcje:
 * Wymuszone wyliczanie średnich dla szkół gdzie ich podgląd został wyłączony
