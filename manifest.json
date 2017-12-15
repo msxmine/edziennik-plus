@@ -3,7 +3,7 @@
 
   "name": "Edziennik-plus",
   "description": "Więcej funkcji w dzienniku elektronicznym",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "icons": {"128":"icon.png"},
   "author": "MS",
   "options_ui": {
@@ -45,12 +45,17 @@
   "permissions": [
     "storage",
     "tabs",
+    "webRequest",
+    "webRequestBlocking",
     "https://synergia.librus.pl/*"
   ],
+  "background": {
+    "scripts": ["tlo.js"]
+  },
   "applications": {
     "gecko": {
       "id": "edziennikplus@msx",
-      "update_url": "https://github.com/msxmine/edziennik-plus/blob/updates/updates.json"
+      "update_url": "https://raw.githubusercontent.com/msxmine/edziennik-plus/updates/updates.json"
     }
   }
 }

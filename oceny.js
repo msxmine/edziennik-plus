@@ -62,6 +62,7 @@ function Ocena(adres)
     }
     else
     {
+      /*
       if (adres.parentElement.parentElement.nodeName == "SPAN")
       {
         var wagasub = 0; //waga wszystkich zbiorowych
@@ -86,8 +87,9 @@ function Ocena(adres)
         this.waga = (wagasub / iloscistotnych) / iloscistotnych
       }
       else{
+        */
       this.waga = tab[tab.indexOf("Waga")+1];
-      }
+      //}
     }
   }
 }
