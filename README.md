@@ -1,7 +1,7 @@
 # edziennik-plus
 Dodatek webextension, udostępniający nowe funkcje na platformie synergia.librus.pl
 # Instalacja
-### [Kliknij aby zainstalować (Firefox)](https://github.com/msxmine/edziennik-plus/releases/download/0.3.4/firefox.xpi)
+### [Kliknij aby zainstalować (Firefox)](https://github.com/msxmine/edziennik-plus/releases/download/0.3.5/firefox.xpi)
 ### [Kliknij aby zainstalować (Chrome)](https://chrome.google.com/webstore/detail/edziennik-plus/jaebpoaniojdaailecipilgejhcljljg)
 # Zrzuty ekranu
 ![Własne logo](https://raw.githubusercontent.com/msxmine/edziennik-plus/updates/screenshot1.PNG "Własne logo")
