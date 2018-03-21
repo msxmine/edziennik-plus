@@ -3,7 +3,7 @@
 
   "name": "Edziennik-plus",
   "description": "Więcej funkcji w dzienniku elektronicznym",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "icons": {"128":"icon.png"},
   "author": "MS",
   "options_ui": {
