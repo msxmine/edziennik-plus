@@ -12,7 +12,6 @@ Obecnie wdrożone funkcje:
 * Ukrywanie szczegółowych informacji o zachowaniu
 * Zamienianie strony głównej na plan lekcji
 * Możliwość zamiany logo na włane z URL-a
-* Wyświetlanie szczęśliwego numerku na logo
 * Możliwość automatycznego ukrywania ocen niższych niż ustalona granica, dodanych po ustalonej dacie
 * Możliwość masowego usuwania wiadomości od nadawców dodanych do listy spam-u
 
