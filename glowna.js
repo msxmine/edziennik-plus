@@ -16,16 +16,16 @@ chrome.storage.local.get({
 document.addEventListener("DOMContentLoaded", function() {
 
 
-var szczesliwyNum = document.getElementsByClassName("szczesliwy-numerek")[0].children[0].textContent;
-var teksik = document.getElementsByClassName("szczesliwy-numerek")[0].parentElement.children[2].textContent;
-localStorage.setItem("szczesliwy", szczesliwyNum);
-localStorage.setItem("szczesliwytex", teksik);
-var tb = document.getElementById("top-banner-container").children[0];
-var myheader = document.createElement('p1');
-myheader.style.position = "absolute";
-myheader.style.top = "85%";
-myheader.textContent = teksik + szczesliwyNum;
-tb.insertBefore(myheader, tb.firstChild);
+//var szczesliwyNum = document.getElementsByClassName("szczesliwy-numerek")[0].children[0].textContent;
+//var teksik = document.getElementsByClassName("szczesliwy-numerek")[0].parentElement.children[2].textContent;
+//localStorage.setItem("szczesliwy", szczesliwyNum);
+//localStorage.setItem("szczesliwytex", teksik);
+//var tb = document.getElementById("top-banner-container").children[0];
+//var myheader = document.createElement('p1');
+//myheader.style.position = "absolute";
+//myheader.style.top = "85%";
+//myheader.textContent = teksik + szczesliwyNum;
+//tb.insertBefore(myheader, tb.firstChild);
 
 chrome.storage.local.get({
     glowna: true
